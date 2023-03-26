@@ -54,10 +54,6 @@
   --home-size: 40px; /* home button icon size [default: 40px] */
 
   /* CHANNEL COLORS */
-  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
-  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
@@ -104,7 +100,4 @@
   --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 
   /* THEME BD COLORS */
-  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
-  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
-  --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
 }
